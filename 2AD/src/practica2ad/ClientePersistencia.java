@@ -96,7 +96,7 @@ public class ClientePersistencia {
 		{
 			System.out.println("ERROR:al hacer un Update");
 			ex.printStackTrace();
-
+			respuesta = false;
 		}
 		if (respuesta = true) {
 			System.out.println("Cliente actualizado");
